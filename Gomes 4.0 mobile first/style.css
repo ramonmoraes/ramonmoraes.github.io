@@ -1,0 +1,152 @@
+@font-face {
+    font-family: asimov;
+    src: url(fonts/Asimov.otf);
+}
+@font-face {
+  font-family: fs;
+  src: url(fonts/FreeSans.ttf);
+}
+h1{  font-family: fs;text-align: center;}
+h2{font-family: fs;text-align: center;}
+p{
+  font-family: asimov;
+}
+.menu{display: flex;}
+.menu a{text-decoration: none; color: #eee; background-color: rgb(127,57,58);
+  transition: 0.4s;text-align: center;
+}
+.land img{
+  height: 100%;width: 100%;
+}
+.container{
+  max-width: 900px;
+  box-shadow: 0px 0px 2px 3px #ddd;
+  display: flex;
+  flex-direction: column;
+
+}
+.vermelhos{
+  background-color: rgb(127,57,58);
+  color: #eee;
+}
+
+.equipe{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+    }
+  .grupo{
+
+  }
+.grupo:nth-child(2){
+  display: none;
+}
+.butoes{
+  cursor: pointer;
+padding: 1vmin;
+border: 1px solid rgba(127,57,58,0.5);
+border-radius: 3px;
+box-shadow: 2px 2px 2px 1px #ccc;
+transition: 0.3s;
+background-color: rgba(127,57,58,1);
+color: white;
+font-family: fs;
+}
+
+.butoes a{
+  text-decoration: none;
+  color: inherit;
+}
+.butoes:hover{
+  position: relative;
+  top: -2px;
+  box-shadow: 2px 2px 2px #444;
+}
+
+
+.retrato img{
+  width: 100%;height: 100%;
+  transition: 1s;
+}
+
+footer{
+  background-color: #652d2e;
+  color: #ccc;
+  display: flex;
+
+}
+
+footer p{
+  font-family: sans-serif;
+
+}
+@media screen and (max-width:330px){
+  .menu a:nth-child(1){
+    display: none;
+  }
+}
+
+
+/*Tablets e desktops  \/ */
+@media screen and (min-width:551px){
+.vermelhos{
+  padding: 0 0.5vw;
+}
+.container{margin: auto;padding: 0 1vw;}
+.land{
+  height: 30vh;
+  margin: 10vw;
+}
+.retrato{
+  height: 50vh;width: 100%;
+}
+.menu{
+  flex-direction: column;
+  position: fixed;
+  right: 5vw;
+  top: 2vh;
+
+}
+
+.menu a{
+  transition: 0.3s;
+  transition-property: all;
+  padding: 4px;
+  border: 1px solid #8B4C4D;
+}
+.menu a:hover{
+  background-color:#8B4C4D;
+  position:relative; top:-3px; left:-3px;  color: white;
+  box-shadow: 3px 3px 3px 0 #333;
+
+}
+footer{
+  padding: 0 10px;
+}
+footer div{
+  margin-right: 7vw;
+}
+}
+/*Tablets e desktops  /\  */
+
+@media screen and (max-width:550px){
+  p{font-size: 0.9em;}
+
+  .menu a{border: 1px solid #eee;padding: 1px;width: 23vw;}
+  .menu a:hover{
+
+    background-color:#8B4C4D;  position:relative; top:-2px;  color: white;transform: scale(1.1);
+  }
+  .retrato{
+    height: 250px;width: 100%;
+  }
+  .retrato img:active{
+    transform: scale(2);
+  }
+  .land{
+    height: 200px;
+  }
+
+}

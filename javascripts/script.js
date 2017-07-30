@@ -1,6 +1,12 @@
-var ajax = new XMLHttpRequest();
+window.onload = function(){
+}
 
-ajax.open('get','./api/info',function(x){
-  console.log(x);
-});
-ajax.send();
+
+function getData(){
+  var ajax = new XMLHttpRequest();
+  ajax.open('get','./api/infos.json',function(x){
+    document.getElementById('value').innerHTML=x;
+    console.log(x);
+  });
+  ajax.send();
+}

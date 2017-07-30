@@ -1,0 +1,9 @@
+#app{max-width: 800px;margin: auto;}
+.box{
+  margin: auto;padding: 15px;border-radius: 5px;
+background-color: tomato;color:#444;
+min-height: 35px;min-width: 35px;}
+#value{text-align: center;font-family: Helvetica}
+button{padding: 5px;border: 1px solid #444;background-color: white;color: #444;
+margin: auto;}
+.btnWrapper{display: flex;}

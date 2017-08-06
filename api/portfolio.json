@@ -1,18 +1,18 @@
 [{
-  "titulo":"oi",
-  "descricao":"tall tal tal",
-  "imgSrc":"..",
-  "link":"./."
+  "titulo":"Momento Eng",
+  "descricao":"Site desenvolvido para empresa Momento Eng.Contendo também um aplicativo hibrido para os usuarios",
+  "imgSrc":"/assets/case/momento.png",
+  "link":"http://momentoeng.herokuapp.com/"
 },
 {
-  "titulo":"q",
-  "descricao":"tall tal tal",
-  "imgSrc":"oq",
-  "link":"hellothere"
+  "titulo":"Easy Dynamic",
+  "descricao":"Ferramenta desenvolvida com intuido de que sites estaticos pudessem ser gerenciado de forma mais eficaz quando utilizado deste cms",
+  "imgSrc":"/assets/case/easy.png",
+  "link":"https://easydynamic.herokuapp.com/"
   },
 {
-  "titulo":"Este Port",
-  "descricao":"tecnologias usadas tal",
-  "imgSrc":"...",
-  "link":"/"
+  "titulo":"Este Site",
+  "descricao":"Progressive WebApp, desenvolvido com React e uma arquitetura de minha autoria para manuntenções mais faceis",
+  "imgSrc":"/assets/case/este.png",
+  "link":"/#"
 }]

@@ -1,8 +1,8 @@
 [{
-  "titulo":"Momento Eng",
-  "descricao":"Site desenvolvido para empresa Momento Engenharia.  Contendo também um aplicativo hibrido para os usuarios",
-  "imgSrc":"/assets/case/momento.png",
-  "link":"http://momentoeng.herokuapp.com/"
+  "titulo":"Cotagê",
+  "descricao":"Site desenvolvido para empresa CotagÊ.  Contendo um direcionador de e-mail",
+  "imgSrc":"/assets/case/cotage.png",
+  "link":"http://www.cotage.com.br"
 },
 {
   "titulo":"Easy Dynamic",
